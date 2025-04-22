@@ -1,0 +1,47 @@
+{
+  "balloonLimit": 25,
+  "stages" : [
+    {
+      "chainValue": 15,
+      "obstacles": [
+        { "position": { "x": -2, "y": 1 }, "size": { "x": 1, "y": 2 } }
+      ],
+      "hazards": [
+        {
+          "position": { "x": 1, "y": 1 },
+          "speed": 3
+        }
+      ]
+    },
+    {
+      "chainValue": 50,
+      "obstacles": [],
+      "hazards": []
+    },
+    {
+      "chainValue": 75,
+      "obstacles": [
+        { "position": { "x": 2, "y": 1 }, "size": { "x": 1, "y": 2 } }
+      ],
+      "hazards": [
+        {
+          "position": { "x": 1, "y": 1 },
+          "speed": 4
+        }
+      ]
+    },
+    {
+      "chainValue": 100,
+      "hazards": [
+        {
+          "position": { "x": 1, "y": 1 },
+          "speed": 6
+        },
+        {
+          "position": { "x": 2, "y": 2.5 },
+          "speed": 6
+        }
+      ]
+    }
+  ]
+}

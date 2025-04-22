@@ -1,0 +1,8 @@
+{
+  "balloonLimit": 5,
+  "stages" : [
+    {
+      "chainValue": 15
+    }
+  ]
+}

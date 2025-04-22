@@ -1,0 +1,32 @@
+{
+  "balloonLimit": 20,
+  "stages" : [
+    {
+      "chainValue": 15,
+      "obstacles": [
+        { "position": { "x": -2, "y": 1 }, "size": { "x": 1, "y": 2 } }
+      ]
+    },
+    {
+      "chainValue": 50,
+      "hazards": [
+        {
+          "position": { "x": 1, "y": 1 },
+          "speed": 3
+        }
+      ]
+    },
+    {
+      "chainValue": 75,
+      "obstacles": [
+        { "position": { "x": -2, "y": 1 }, "size": { "x": 1, "y": 2 } }
+      ],
+      "hazards": [
+        {
+          "position": { "x": 1, "y": 1 },
+          "speed": 6
+        }
+      ]
+    }
+  ]
+}
